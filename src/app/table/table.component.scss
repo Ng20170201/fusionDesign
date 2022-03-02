@@ -1,0 +1,83 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+tr:nth-child(even){
+    background: rgb(246, 246, 250)
+}
+
+tr:nth-child(odd) {
+    background: #FFF
+}
+
+.table{
+    
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px auto;
+    width: 80%;
+    mat-table {
+        width: 100%;
+        display: table;
+        }
+   
+   }
+
+.search-container{
+    
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 10%;
+    margin-top:3% ;
+    gap:1%;
+    button {
+        background-color: #a281fd;
+      }
+  
+}
+
+#btnEdit{
+    background-color:rgb(221, 217, 255);
+    width: 70px;
+}
+#btnDelete{
+    background-color:rgb(150, 134, 175);
+    width: 70px;
+}
+#name{
+    font-weight: bold;
+    
+}
+.mat-header-cell{
+    font-weight: bold;
+    border-radius: 2%;
+    border-width: 2px;
+}
+.edit{
+   width: 70px;
+}
+.delete{
+    width: 70px;
+ }
+
+ .middle{
+    vertical-align: middle;
+ }
+ th, td {
+    overflow: hidden;
+    width:auto;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100px;
+  }
+ .paginator{
+     display: flex;
+     width: 100%;
+    justify-content: center;
+    font-size: 30px;
+   
+    
+ }

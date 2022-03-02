@@ -1,0 +1,22 @@
+.menu{
+    height: 70px;
+    background-color:#07071F;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.button-class-menu{
+        border-radius: 8px;
+        background-color:#07071F;
+        margin-right: 10px;
+        margin-top: 0.5%;
+        margin-bottom: 0.5%;
+        color:#e4e4fc
+}
+
+.button-class-menu:hover{
+    background-color: #e4e4fc;
+    color: #07071F;
+}

@@ -1,0 +1,88 @@
+.header-buttons{
+    display: flex;
+    flex-direction: row;
+}
+.two-buttons{
+    display: flex;
+    margin-left: auto;
+}
+.addNewButton{
+    color:azure;
+    background-color:	#43055f;
+    margin-top: 30px;
+    margin-left: 5%;
+}
+.cards{
+    
+    margin-top: 2%;
+    display:flex;
+    gap:4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 800px)  {
+    .card{
+        background-color: red;
+    }
+}
+
+.card{
+    button{
+        height: 40px;
+    }
+    display: flex;
+    height: 200px;
+    width: 500px;
+    background-color: #faf6fc;
+    .card-text{
+        text-align: end;
+        display: flex;
+        width: 65%;
+        flex-direction: column;
+        margin-left: 20px;  
+    }
+  
+}
+
+
+.mat-card-title{
+    margin-top: 10px;
+    height: 40%;
+    font-size: 25px;
+    color: #190224;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    overflow-x: clip;
+    overflow-y: visible;
+    width:auto;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.image-university{
+    height: auto;
+    width: 40%;
+    margin-bottom: -16px;
+}
+.grey{
+   
+    padding: auto;
+    color:grey;
+    text-decoration: underline;
+    margin-bottom: -5px;
+}
+#short-description{
+    margin-top: 9px;
+    max-height: 30px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+#long-description{
+    max-height: 90px;    
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-wrap: break-word;
+}

@@ -1,0 +1,40 @@
+<div>
+    <button class="addNewButton" mat-button (click)="AddUniversity()">Add new university</button>
+</div>
+
+<div class="cards" #cards>
+    <mat-card class="card" *ngFor="let university of universityService.universities">
+
+        <img class="image-university" src={{university.image}} mat-card-image>
+        <div class="card-text">
+            <div class="header-buttons">
+                <mat-card-title title="{{university.name}}"> {{university.name}}</mat-card-title>
+                <div class="two-buttons">
+                    <button mat-button (click)="delete(university)">
+                        <mat-icon>delete</mat-icon>
+                    </button>
+                    <button mat-button (click)="edit(university)">
+                        <mat-icon>edit</mat-icon>
+                    </button>
+                </div>
+            </div>
+            <mat-card-content id="short-description">
+                <p class="grey">
+                    Short description:
+                </p>
+                <p title="{{university.shortDescription}}" class="short-des">
+                    {{university.shortDescription}}
+                </p>
+            </mat-card-content>
+            <mat-card-content id="long-description">
+                <p class="grey">
+                    Long description:
+                </p>
+                <p title="{{university.longDescription}}">
+                    {{university.longDescription}}
+                </p>
+            </mat-card-content>
+        </div>
+
+    </mat-card>
+</div>

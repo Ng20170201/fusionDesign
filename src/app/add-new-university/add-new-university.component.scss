@@ -1,0 +1,79 @@
+.edit-univetsity{
+    display: flex;
+    flex-direction: row;
+    
+}
+.loader{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+.header-close{
+    display: flex;
+    flex-direction: row;
+}
+.close-button{
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+}
+.edit-container{
+ 
+    color:black ;
+    border-radius: 5%;
+    width: 100%;
+    height: 100%;
+}
+.ok-button{
+   
+    display: flex;
+    margin-right: 2px;
+    width: 35%;
+    justify-content: center;
+    background-color:#2a043b ;
+    margin-left: auto;
+    color: aliceblue;
+    
+}
+
+#long-description{
+    height: 100px;
+}
+.name-short{
+   
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    width: 60%;
+    
+}
+.mat-dialog-title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 50px;
+    color:#190224;
+}
+p{
+    font-weight: bold;;
+}
+.image-import{
+    width:38% ;
+    display:flex;
+    margin-left: 50px;
+    flex-direction: column;
+    .image{
+        width: 100%;
+        height: 60%;
+    }
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.image-text{
+    margin-left: 0%;
+}
